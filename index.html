@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <main>
+      <section id="presentation">
+        <h1>Apresentação do site</h1>
+        <p>
+          Essa é uma página de login que não está usando nenhum banco de dados,
+          pois estou usando essa página apenas para aprendizagem.
+        </p>
+      </section>
+      <section id="login">
+        <h1>Login</h1>
+        <form action="" method="post">
+          <div class="field">
+            <div>
+              <label for="ilogin">Login:</label>
+            </div>
+            <input
+              type="email"
+              name="login"
+              id="ilogin"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <div class="field">
+            <div>
+              <label for="ipassword">Senha:</label>
+            </div>
+            <input
+              type="password"
+              name="password"
+              id="ipassword"
+              placeholder="Senha"
+              required
+              minlength="8"
+            />
+          </div>
+          <p>
+            <a href="cadastre-se.html">cadastre-se</a
+            ><a href="esqueci.html">esqueci a senha</a>
+          </p>
+          <input type="submit" value="Entrar" id="btn" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
